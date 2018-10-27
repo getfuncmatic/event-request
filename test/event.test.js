@@ -14,6 +14,12 @@ describe("Basic", async () => {
     testevent.queryStringParameters = { "hello": "world" }
     href = event.toHref(testevent)
     expect(href).toBe("https://host.com/path?hello=world")
+
+    // different port
+    testevent.headers['X-Forwarded-Port'] = "8000"
+    href = event.toHref(testevent)
+    expect(href).toBe("https://host.com:8000/path?hello=world")
+
   })
   it ('should generate a URL object', async () => {
     var url = event.toUrl(testevent)

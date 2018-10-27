@@ -1,6 +1,6 @@
 {
   "name": "@funcmatic/event-request",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple utility that converts an AWS Lambda Proxy Event to NodeJS HTTP request options.",
   "main": "index.js",
   "scripts": {
