@@ -1,0 +1,106 @@
+{
+  "resource": "/files/{proxy+}",
+      "path": "/dev/files/0b7f2ce5-2eaf-4869-9e95-f5154e028785/decrypt",
+      "httpMethod": "GET",
+      "headers": {
+          "Accept": "application/json",
+          "CloudFront-Forwarded-Proto": "https",
+          "CloudFront-Is-Desktop-Viewer": "true",
+          "CloudFront-Is-Mobile-Viewer": "false",
+          "CloudFront-Is-SmartTV-Viewer": "false",
+          "CloudFront-Is-Tablet-Viewer": "false",
+          "CloudFront-Viewer-Country": "US",
+          "Host": "api.dotenv.io",
+          "Via": "1.1 81bc1cc5023b90be56d52e1ae0c186c1.cloudfront.net (CloudFront)",
+          "X-Amz-Cf-Id": "lmUbCgalX1ZnSuMrKhZvHex_tzxA7VY3_-3IMD45n55OO5ea-ZM_Ng==",
+          "X-Amzn-Trace-Id": "Root=1-5bce9804-541e27397614416e47094e11",
+          "X-Forwarded-For": "34.217.73.0, 52.46.16.7",
+          "X-Forwarded-Port": "443",
+          "X-Forwarded-Proto": "https",
+          "X-Funcmatic-Env-Secret": "79bb17f2-978c-482f-91da-23f5a4be70a3-52a4eb32-25ff-4629-ba12-3df34fc4c332"
+      },
+      "multiValueHeaders": {
+          "Accept": [
+              "application/json"
+          ],
+          "CloudFront-Forwarded-Proto": [
+              "https"
+          ],
+          "CloudFront-Is-Desktop-Viewer": [
+              "true"
+          ],
+          "CloudFront-Is-Mobile-Viewer": [
+              "false"
+          ],
+          "CloudFront-Is-SmartTV-Viewer": [
+              "false"
+          ],
+          "CloudFront-Is-Tablet-Viewer": [
+              "false"
+          ],
+          "CloudFront-Viewer-Country": [
+              "US"
+          ],
+          "Host": [
+              "api.dotenv.io"
+          ],
+          "Via": [
+              "1.1 81bc1cc5023b90be56d52e1ae0c186c1.cloudfront.net (CloudFront)"
+          ],
+          "X-Amz-Cf-Id": [
+              "lmUbCgalX1ZnSuMrKhZvHex_tzxA7VY3_-3IMD45n55OO5ea-ZM_Ng=="
+          ],
+          "X-Amzn-Trace-Id": [
+              "Root=1-5bce9804-541e27397614416e47094e11"
+          ],
+          "X-Forwarded-For": [
+              "34.217.73.0, 52.46.16.7"
+          ],
+          "X-Forwarded-Port": [
+              "443"
+          ],
+          "X-Forwarded-Proto": [
+              "https"
+          ],
+          "X-Funcmatic-Env-Secret": [
+              "79bb17f2-978c-482f-91da-23f5a4be70a3-52a4eb32-25ff-4629-ba12-3df34fc4c332"
+          ]
+      },
+      "queryStringParameters": null,
+      "multiValueQueryStringParameters": null,
+      "pathParameters": {
+          "proxy": "0b7f2ce5-2eaf-4869-9e95-f5154e028785/decrypt"
+      },
+      "stageVariables": null,
+      "requestContext": {
+          "resourceId": "mcmhg1",
+          "resourcePath": "/files/{proxy+}",
+          "httpMethod": "GET",
+          "extendedRequestId": "PMywtE34PHcF3Pg=",
+          "requestTime": "23/Oct/2018:03:39:48 +0000",
+          "path": "/dev/files/0b7f2ce5-2eaf-4869-9e95-f5154e028785/decrypt",
+          "accountId": "233748856986",
+          "protocol": "HTTP/1.1",
+          "stage": "dev",
+          "domainPrefix": "api",
+          "requestTimeEpoch": 1540265988530,
+          "requestId": "4a90798c-d675-11e8-8b43-11cd2776cf64",
+          "identity": {
+              "cognitoIdentityPoolId": null,
+              "accountId": null,
+              "cognitoIdentityId": null,
+              "caller": null,
+              "sourceIp": "34.217.73.0",
+              "accessKey": null,
+              "cognitoAuthenticationType": null,
+              "cognitoAuthenticationProvider": null,
+              "userArn": null,
+              "userAgent": null,
+              "user": null
+          },
+          "domainName": "api.dotenv.io",
+          "apiId": "eib6q7l6ki"
+      },
+      "body": null,
+      "isBase64Encoded": false
+  }
